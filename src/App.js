@@ -13,15 +13,7 @@ function App() {
           <Route path="/checkout" element={<Checkout />}></Route>
           <Route path="/login" element={<Login />}></Route>
 
-          <Route
-            path="/"
-            element={
-              <>
-                <Header />
-                <Home />
-              </>
-            }
-          ></Route>
+          <Route path="/" element={<Home />}></Route>
         </Routes>
       </div>
     </>
